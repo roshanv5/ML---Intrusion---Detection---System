@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background-image: url('malware3.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    
+    display: inline-block;
+    font-family: sans-serif ;
+    text-shadow: 2px 2px 5px white;
+}
+.nav-area li a{
+    color: rgb(239, 239, 241);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:poppins;
+    font-size: 30px;
+    /* background-color: black; */
+}
+.nav-area li a:hover{
+    background-color:#fff;
+    color: #333;
+    border-radius: 12px;
+}
