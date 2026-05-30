@@ -1,25 +1,38 @@
-# ML---Intrusion---Detection---System
-Machine Learning based Intrusion Detection System using PCA and Random Forest for network anomaly detection
-# Machine Learning Intrusion Detection System
+# A Novel IDS Framework Combining PCA and Random Forest
 
 ## Project Overview
-This project implements an Intrusion Detection System (IDS) using Principal Component Analysis (PCA) and Random Forest to detect anomalous network traffic.
+This project presents a Machine Learning based Intrusion Detection System (IDS) that combines Principal Component Analysis (PCA) and Random Forest to detect malicious network activities and improve cybersecurity monitoring.
 
 ## Objectives
-- Detect suspicious network activity
-- Reduce dimensionality using PCA
-- Classify attacks using Random Forest
-- Simulate SOC alert workflows
+- Detect network intrusions using Machine Learning
+- Reduce data dimensionality using PCA
+- Improve classification accuracy using Random Forest
+- Minimize false positives
+- Support real-time threat detection
 
 ## Technologies Used
 - Python
+- Scikit-Learn
 - PCA
 - Random Forest
-- Machine Learning
-- Network Security
+- Pandas
+- NumPy
+- Flask
 
-## Project Status
-Completed
+## Features
+- Data Preprocessing
+- Feature Reduction using PCA
+- Attack Classification
+- Intrusion Detection
+- Model Evaluation
+
+## Results
+- Achieved 97.3% classification accuracy
+- Improved detection efficiency
+- Reduced computational overhead
+
+## Project Documentation
+The complete project report is available in this repository.
 
 ## Author
 Roshan Kumar S
